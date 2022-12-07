@@ -48,6 +48,7 @@ public class Logowanie {
         driver.findElement(By.tagName("button")).click();
     }
 
+
     @Then("Uzytkownik zostaje poprawnie zalogowany do aplikacji")
     public void uzytkownik_zostaje_poprawnie_zalogowany_do_aplikacji() {
         System.out.println("Krok 6 - Uzytkownik zostaje poprawnie zalogowany do aplikacji");

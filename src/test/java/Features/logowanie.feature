@@ -4,6 +4,7 @@ Feature: Logowanie do aplikacji
   logowania do aplikacji aby moc korzystac
   z zaawansowanych funkcji systemu
 
+
   Scenario: Poprawne logowanie do aplikacji
     Given Uzytkownik otwiera przegldarke
     And Uzytkownik wpisuje adres strony internetowej
